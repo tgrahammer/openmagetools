@@ -14,18 +14,38 @@ It will be extended as often as possible. If you have tools (Scripts, Snippets) 
 First of all the SQL-snippets has been seperated into their "section" of usage. Are there special usages in the enterprise
 edititon (ee), these snippets would be found in a seperate enterprise-directory. Don´t use this with the community-edition (CE).
 
-- sql
-  |
-  - dbClearance
-    |
-    - customers
-          customers.sql
-          newsletter.sql
-          polls.sql
-          reports.sql
-          search.sql
-          whishlist.sql
-    - logs
-      |
-      - enterprise
+|-- openmagetools
+    |-- .gitignore
+    |-- LICENSE
+    |-- README.md
+    |-- .idea
+    |   |-- .name
+    |   |-- dbnavigator.xml
+    |   |-- magicento.xml
+    |   |-- misc.xml
+    |   |-- modules.xml
+    |   |-- openmagetools.iml
+    |   |-- vcs.xml
+    |   |-- workspace.xml
+    |   |-- magicento
+    |-- sql
+        |-- dbClearance
+            |-- customers
+            |   |-- customers.sql
+            |   |-- newsletter.sql
+            |   |-- polls.sql
+            |   |-- reports.sql
+            |   |-- search.sql
+            |   |-- whishlist.sql
+            |-- logs
+            |   |-- logs.sql
+            |   |-- enterprise
+            |       |-- logs_ee.sql
+            |-- products
+            |   |-- products.sql
+            |   |-- tags.sql
+            |-- sales
+                |-- sales.sql
+                |-- enterprise
+                    |-- sales_ee.sql
 
